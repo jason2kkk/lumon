@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a reproducible problem in Lumon.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please remove secrets and private user content before submitting.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and the expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Include the smallest set of steps or an isolated example.
+      placeholder: |
+        1. Start with synthetic demo data
+        2. Configure ...
+        3. Run ...
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Environment
+      description: OS, Python version, Node version, and Lumon commit or release.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Redact keys, cookies, personal information, and private source content.
+      render: shell

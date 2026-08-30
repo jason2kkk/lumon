@@ -1,0 +1,143 @@
+[
+  {
+    "need_title": "收藏内容失去保存意图后变成信息负担",
+    "need_title_en": "Saved content becomes a burden after its original intent is lost",
+    "need_description": "用户能轻松收藏内容，却无法保留保存原因、关联决策和复查时机，最终形成无人处理的第二收件箱。所有帖子和评论均为合成演示文本。",
+    "need_description_en": "People can save content easily, but lose the reason, decision context, and review timing. All posts and comments are synthetic demo text.",
+    "original_topic": "[合成演示数据] 个人知识与决策整理",
+    "posts": [
+      {
+        "source": "synthetic/lumon-demo",
+        "title": "My saved links keep turning into an unread second inbox",
+        "title_zh": "收藏链接不断堆积成第二个未读收件箱",
+        "content": "[Synthetic example] I save articles, videos, and product pages while working. A week later I cannot remember why I saved them, so the list keeps growing without helping me.",
+        "comments": [
+          "[Synthetic example] I need the original reason next to each saved item.",
+          "[Synthetic example] A short weekly review would be more useful than another folder system."
+        ],
+        "url": "https://example.com/lumon-demo/source-1",
+        "hn_url": "",
+        "score": 97,
+        "num_comments": 2,
+        "has_need_signals": true,
+        "_engine": "synthetic-demo",
+        "_full_body": "[Synthetic example] I save articles, videos, and product pages while working. A week later I cannot remember why I saved them, so the list keeps growing without helping me.",
+        "_discovery_source": "synthetic-demo"
+      },
+      {
+        "source": "synthetic/lumon-demo",
+        "title": "Bookmarks are easy to collect and hard to turn into decisions",
+        "title_zh": "书签易于收集，却很难转化为行动",
+        "content": "[Synthetic example] My research bookmarks mix buying decisions, learning material, and references. Search finds words, but it does not tell me which decision each page was meant to support.",
+        "comments": [
+          "[Synthetic example] I want reminders based on intent, not the date I saved something.",
+          "[Synthetic example] Automatic summaries help only when I can verify the source quickly."
+        ],
+        "url": "https://example.com/lumon-demo/source-2",
+        "hn_url": "",
+        "score": 114,
+        "num_comments": 2,
+        "has_need_signals": true,
+        "_engine": "synthetic-demo",
+        "_full_body": "[Synthetic example] My research bookmarks mix buying decisions, learning material, and references. Search finds words, but it does not tell me which decision each page was meant to support.",
+        "_discovery_source": "synthetic-demo"
+      }
+    ],
+    "total_score": 211,
+    "total_comments": 4
+  },
+  {
+    "need_title": "轻量项目交接缺少可追溯的决策背景",
+    "need_title_en": "Lightweight project handoffs lose decision context",
+    "need_description": "任务系统保留结果，却常遗漏备选方案、约束与证据，导致换人后重复讨论和试错。所有帖子和评论均为合成演示文本。",
+    "need_description_en": "Task systems retain outcomes but often lose alternatives, constraints, and evidence. All posts and comments are synthetic demo text.",
+    "original_topic": "[合成演示数据] 小团队协作",
+    "posts": [
+      {
+        "source": "synthetic/lumon-demo",
+        "title": "Small project handoffs lose the reasoning behind decisions",
+        "title_zh": "小项目交接时经常丢失决策背景",
+        "content": "[Synthetic example] Our team records tasks, but the alternatives and tradeoffs stay in chat. When ownership changes, the next person repeats old discussions.",
+        "comments": [
+          "[Synthetic example] A decision log should take seconds, otherwise nobody maintains it.",
+          "[Synthetic example] Linking each decision to evidence would prevent repeated debates."
+        ],
+        "url": "https://example.com/lumon-demo/source-3",
+        "hn_url": "",
+        "score": 131,
+        "num_comments": 2,
+        "has_need_signals": true,
+        "_engine": "synthetic-demo",
+        "_full_body": "[Synthetic example] Our team records tasks, but the alternatives and tradeoffs stay in chat. When ownership changes, the next person repeats old discussions.",
+        "_discovery_source": "synthetic-demo"
+      },
+      {
+        "source": "synthetic/lumon-demo",
+        "title": "I can see what changed, but not why it changed",
+        "title_zh": "我能看到改了什么，却看不到为什么改",
+        "content": "[Synthetic example] Tickets describe the final implementation, while rejected options disappear. Months later the same constraints are rediscovered through trial and error.",
+        "comments": [
+          "[Synthetic example] Pull requests are too detailed for product context.",
+          "[Synthetic example] The useful unit is one decision, its owner, and supporting evidence."
+        ],
+        "url": "https://example.com/lumon-demo/source-4",
+        "hn_url": "",
+        "score": 148,
+        "num_comments": 2,
+        "has_need_signals": true,
+        "_engine": "synthetic-demo",
+        "_full_body": "[Synthetic example] Tickets describe the final implementation, while rejected options disappear. Months later the same constraints are rediscovered through trial and error.",
+        "_discovery_source": "synthetic-demo"
+      }
+    ],
+    "total_score": 279,
+    "total_comments": 4
+  },
+  {
+    "need_title": "家庭重复安排难以处理临时例外和责任交换",
+    "need_title_en": "Household routines struggle with exceptions and ownership swaps",
+    "need_description": "固定日程在旅行、轮班和临时事件出现后迅速失真，家庭成员需要低打扰地确认例外与责任变化。所有帖子和评论均为合成演示文本。",
+    "need_description_en": "Recurring plans drift when travel, shifts, and exceptions occur. All posts and comments are synthetic demo text.",
+    "original_topic": "[合成演示数据] 家庭协作",
+    "posts": [
+      {
+        "source": "synthetic/lumon-demo",
+        "title": "Shared household routines fail when exceptions pile up",
+        "title_zh": "家庭共享日程在例外不断出现时容易失效",
+        "content": "[Synthetic example] A repeating schedule works until travel, school events, or shift changes occur. Then everyone keeps a different mental version of the plan.",
+        "comments": [
+          "[Synthetic example] We need a clear confirmation when one week differs from the default.",
+          "[Synthetic example] Calendar events do not explain who noticed or approved a change."
+        ],
+        "url": "https://example.com/lumon-demo/source-5",
+        "hn_url": "",
+        "score": 165,
+        "num_comments": 2,
+        "has_need_signals": true,
+        "_engine": "synthetic-demo",
+        "_full_body": "[Synthetic example] A repeating schedule works until travel, school events, or shift changes occur. Then everyone keeps a different mental version of the plan.",
+        "_discovery_source": "synthetic-demo"
+      },
+      {
+        "source": "synthetic/lumon-demo",
+        "title": "Recurring chores need ownership without constant reminders",
+        "title_zh": "重复家务需要明确责任，而不是反复催促",
+        "content": "[Synthetic example] Checklists show unfinished work but do not handle swaps or temporary exceptions well. The coordination cost becomes larger than the task itself.",
+        "comments": [
+          "[Synthetic example] A swap should be visible and expire automatically after that week.",
+          "[Synthetic example] Quiet status updates would reduce repeated messages."
+        ],
+        "url": "https://example.com/lumon-demo/source-6",
+        "hn_url": "",
+        "score": 182,
+        "num_comments": 2,
+        "has_need_signals": true,
+        "_engine": "synthetic-demo",
+        "_full_body": "[Synthetic example] Checklists show unfinished work but do not handle swaps or temporary exceptions well. The coordination cost becomes larger than the task itself.",
+        "_discovery_source": "synthetic-demo"
+      }
+    ],
+    "total_score": 347,
+    "total_comments": 4
+  }
+]

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.venv_*/
+*.egg-info/
+
+# Environment
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Data (runtime generated)
+data/cache/
+data/reports/
+data/poc_evaluations/
+data/trending/
+data/sessions/
+data/analytics/
+data/tavily_usage.json
+data/global_stats.json
+logs/
+docs/evaluations/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.cursor/*
+!.cursor/rules/
+.vscode/
+*.swp
+*.swo
+
+# Optional tunnel credentials must never be committed
+cloudflare/*.json
+cloudflare/config.yml

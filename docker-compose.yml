@@ -1,0 +1,19 @@
+services:
+  lumon:
+    build: .
+    ports:
+      - "127.0.0.1:${LUMON_PORT:-8000}:8000"
+    env_file:
+      - .env
+    environment:
+      # Docker 端口映射会让容器看到网桥来源；宿主机端口仍必须只绑定 127.0.0.1。
+      LUMON_TRUST_LOCAL_PROXY: "1"
+    volumes:
+      - lumon-data:/app/data
+    init: true
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+volumes:
+  lumon-data:

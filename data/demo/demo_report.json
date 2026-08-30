@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-01-01T00:00:00+00:00",
+  "debate_rounds": 2,
+  "final_report": "# 收藏内容失去保存意图后变成信息负担\n\n> 数据声明：本报告中的帖子、评论、分数、竞品和结论均为合成演示内容，不代表真实用户或市场事实。\n\n## 一句话结论\n\n用户的问题不是缺少收藏入口，而是保存原因和后续决策脱节。最小产品应验证“记录意图 + 定时召回”是否能提高内容被重新使用的比例。\n\n## 核心发现\n\n1. 收藏时的上下文没有进入现有书签记录。\n2. 文件夹增加了整理成本，却没有回答“为什么保存”。\n3. 自动摘要必须保留可核对的来源，才能支持后续决策。\n\n## 证据边界\n\n- 合成帖子数：2\n- 合成评论数：4\n- 外部事实验证：未执行\n- 当前置信度：低，仅适合演示产品流程\n\n## 痛点地图\n\n### 1. 一周后无法恢复保存原因\n\n**强度：中（合成信号）**\n\n代表性合成引述：“I need the original reason next to each saved item.”\n\n### 2. 收藏列表不能帮助完成决策\n\n**强度：中（合成信号）**\n\n代表性合成引述：“Bookmarks are easy to collect and hard to turn into decisions.”\n\n## 最小产品建议\n\n浏览器分享入口自动记录标题、URL 和时间，用户只需选择“研究 / 购买 / 稍后行动”之一；系统在七天后生成一次本地复查队列。\n\n## 验证指标\n\n| 指标 | 目标 | 失败信号 |\n|---|---:|---|\n| 保存操作中位耗时 | 小于 3 秒 | 用户频繁跳过意图选择 |\n| 7 天内重新使用率 | 高于 30% | 内容继续堆积且无人处理 |\n| 完成或删除比例 | 高于 20% | 用户只收藏、不做决定 |\n\n## 合成竞品格局\n\n| 竞品 | App Store | 近30天收入 | 近30天下载 | SensorTower |\n|---|---|---:|---:|---|\n| Demo Bookmark Tool | [示例来源](https://example.com/lumon-demo/competitor) | - | - | - |\n\n## 下一步\n\n招募 5 名需要持续做购买或研究决策的测试者，进行一周本地原型实验。发布任何市场判断前，必须重新收集有授权的真实证据。\n",
+  "need": {
+    "need_title": "收藏内容失去保存意图后变成信息负担",
+    "need_title_en": "Saved content becomes a burden after its original intent is lost",
+    "need_description": "用户能轻松收藏内容，却无法保留保存原因、关联决策和复查时机，最终形成无人处理的第二收件箱。所有帖子和评论均为合成演示文本。",
+    "need_description_en": "People can save content easily, but lose the reason, decision context, and review timing. All posts and comments are synthetic demo text.",
+    "original_topic": "[合成演示数据] 个人知识与决策整理",
+    "posts": [
+      {
+        "source": "synthetic/lumon-demo",
+        "title": "My saved links keep turning into an unread second inbox",
+        "title_zh": "收藏链接不断堆积成第二个未读收件箱",
+        "content": "[Synthetic example] I save articles, videos, and product pages while working. A week later I cannot remember why I saved them, so the list keeps growing without helping me.",
+        "comments": [
+          "[Synthetic example] I need the original reason next to each saved item.",
+          "[Synthetic example] A short weekly review would be more useful than another folder system."
+        ],
+        "url": "https://example.com/lumon-demo/source-1",
+        "hn_url": "",
+        "score": 97,
+        "num_comments": 2,
+        "has_need_signals": true,
+        "_engine": "synthetic-demo",
+        "_full_body": "[Synthetic example] I save articles, videos, and product pages while working. A week later I cannot remember why I saved them, so the list keeps growing without helping me.",
+        "_discovery_source": "synthetic-demo"
+      },
+      {
+        "source": "synthetic/lumon-demo",
+        "title": "Bookmarks are easy to collect and hard to turn into decisions",
+        "title_zh": "书签易于收集，却很难转化为行动",
+        "content": "[Synthetic example] My research bookmarks mix buying decisions, learning material, and references. Search finds words, but it does not tell me which decision each page was meant to support.",
+        "comments": [
+          "[Synthetic example] I want reminders based on intent, not the date I saved something.",
+          "[Synthetic example] Automatic summaries help only when I can verify the source quickly."
+        ],
+        "url": "https://example.com/lumon-demo/source-2",
+        "hn_url": "",
+        "score": 114,
+        "num_comments": 2,
+        "has_need_signals": true,
+        "_engine": "synthetic-demo",
+        "_full_body": "[Synthetic example] My research bookmarks mix buying decisions, learning material, and references. Search finds words, but it does not tell me which decision each page was meant to support.",
+        "_discovery_source": "synthetic-demo"
+      }
+    ],
+    "total_score": 211,
+    "total_comments": 4
+  },
+  "report_format": "markdown"
+}

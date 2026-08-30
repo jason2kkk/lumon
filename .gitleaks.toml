@@ -1,0 +1,9 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "CLI API key placeholder used in public documentation"
+condition = "AND"
+regexTarget = "secret"
+regexes = ['''^replace-with-your-own-cli-api-key$''']
+paths = ['''docs/ST-cli-api\.md$''']

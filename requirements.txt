@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+openai
+httpx
+python-dotenv
+defusedxml
+tavily-python
