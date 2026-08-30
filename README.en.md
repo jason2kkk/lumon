@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jason2kkk/Lumon/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/jason2kkk/Lumon/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/jason2kkk/lumon/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/jason2kkk/lumon/actions/workflows/ci.yml/badge.svg"></a>
   <a href="LICENSE"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-blue.svg"></a>
   <img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-3776AB.svg">
   <img alt="Node 20.19+ / 22.12+" src="https://img.shields.io/badge/node-20.19%2B%20%7C%2022.12%2B-339933.svg">
@@ -64,7 +64,7 @@ flowchart LR
 ### Run from source (recommended)
 
 ```bash
-git clone https://github.com/jason2kkk/Lumon.git
+git clone https://github.com/jason2kkk/lumon.git
 cd Lumon
 
 cp .env.example .env

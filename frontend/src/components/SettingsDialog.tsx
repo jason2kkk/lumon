@@ -861,7 +861,7 @@ export default function SettingsDialog() {
         <div className="bg-accent/5 border border-accent/15 rounded-xl px-4 py-3 text-[12px] text-text/80 leading-relaxed">
           <LocalizedText>
             {text('settings.guideContactPrefix')}{' '}
-            <a href="https://github.com/jason2kkk/Lumon/issues" target="_blank" rel="noopener noreferrer" className="text-accent font-medium hover:underline">{text('settings.feedbackForm')}</a>
+            <a href="https://github.com/jason2kkk/lumon/issues" target="_blank" rel="noopener noreferrer" className="text-accent font-medium hover:underline">{text('settings.feedbackForm')}</a>
             {text('settings.guideContactEnd')}
           </LocalizedText>
         </div>

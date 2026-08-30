@@ -5,7 +5,7 @@ README, [the work-principles guide](docs/HOW_IT_WORKS.md), and existing issues.
 
 ## Usage questions
 
-Use [GitHub Discussions](https://github.com/jason2kkk/Lumon/discussions) for
+Use [GitHub Discussions](https://github.com/jason2kkk/lumon/discussions) for
 setup questions, provider configuration, research methodology, and other
 non-sensitive help. Include:
 
