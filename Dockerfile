@@ -7,7 +7,7 @@ COPY frontend/ ./
 RUN npm run build
 
 # ---- 阶段 2: 运行后端 ----
-FROM python:3.13-slim
+FROM python:3.14-slim
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y --no-install-recommends curl && \
